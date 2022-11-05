@@ -1,0 +1,17 @@
+E:\VS Code\C#\PerformEndless\bin\Debug\net6.0\PerformEndless.exe
+E:\VS Code\C#\PerformEndless\bin\Debug\net6.0\PerformEndless.deps.json
+E:\VS Code\C#\PerformEndless\bin\Debug\net6.0\PerformEndless.runtimeconfig.json
+E:\VS Code\C#\PerformEndless\bin\Debug\net6.0\PerformEndless.dll
+E:\VS Code\C#\PerformEndless\bin\Debug\net6.0\PerformEndless.pdb
+E:\VS Code\C#\PerformEndless\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\PerformEndless.csproj.AssemblyReference.cache
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\PerformEndless.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\PerformEndless.AssemblyInfoInputs.cache
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\PerformEndless.AssemblyInfo.cs
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\PerformEndless.csproj.CoreCompileInputs.cache
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\PerformEndless.csproj.CopyComplete
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\PerformEndless.dll
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\refint\PerformEndless.dll
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\PerformEndless.pdb
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\PerformEndless.genruntimeconfig.cache
+E:\VS Code\C#\PerformEndless\obj\Debug\net6.0\ref\PerformEndless.dll
