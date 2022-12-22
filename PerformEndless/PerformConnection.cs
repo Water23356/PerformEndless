@@ -22,6 +22,6 @@ namespace PerformEndless
         /// <summary>
         /// 激活连接体
         /// </summary>
-        public PerformInstruction Active(out PerformData data);
+        public PerformInstruction Active(out PerformData data, int input = 0);
     }
 }

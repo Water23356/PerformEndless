@@ -42,7 +42,7 @@ namespace PerformEndless
         /// 激活事件,得到事件当前进度的事件数据包
         /// </summary>
         /// <returns></returns>
-        public PerformInstruction Active(out PerformData data)
+        public PerformInstruction Active(out PerformData data, int input = 0)
         {
             if(Index < datas.Count)
             {

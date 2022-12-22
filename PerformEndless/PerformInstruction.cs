@@ -22,24 +22,35 @@
         /// 一下条指令
         /// </summary>
         public PerformInstruction Next { get; set; }
-
+        /// <summary>
+        /// 触发连接体的条件
+        /// </summary>
+        public int Condizione { get; set; }
         public PerformInstruction(int id)
         {
             ID = id;
         }
 
-        public PerformInstruction Active(out PerformData data)
+        public PerformInstruction Active(out PerformData data,int input = 0)
         {
-            if(Item is PerformInstruction)
-            {
-                data = null;
-                return (PerformInstruction)Item;
-            }
             PerformData pdata = null;
-            Item.Active(out pdata);
+            if (input == Condizione)
+            {
+                
+                if(Item is PerformInstruction)
+                {
+                    data = pdata;
+                    return (PerformInstruction)Item;
+                }
+                else
+                {
+                    Item.Active(out pdata,input);
+                }
+            }
             data = pdata;
             return Next;
         }
+
 
     }
 }

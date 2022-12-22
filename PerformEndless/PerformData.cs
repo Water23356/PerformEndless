@@ -34,7 +34,7 @@ namespace PerformEndless
             ID = id;
         }
 
-        public PerformInstruction Active(out PerformData data)
+        public PerformInstruction Active(out PerformData data, int input = 0)
         {
             data = this;
             return null;
