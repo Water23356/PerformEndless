@@ -9,7 +9,7 @@ namespace PerformEndless
     /// <summary>
     /// 演出连接体
     /// </summary>
-    public interface PerformConnection
+    public class PerformObject
     {
         /// <summary>
         /// 连接体的名称
@@ -18,10 +18,10 @@ namespace PerformEndless
         /// <summary>
         /// 连接体的ID
         /// </summary>
-        public int ID { get; }
+        public int ID { get; protected set; }
         /// <summary>
-        /// 激活连接体
+        /// 标签,用于区分演出数据和演出指令
         /// </summary>
-        public PerformInstruction Active(out PerformData data, int input = 0);
+        public string tag;
     }
 }

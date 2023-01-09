@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7rRfPloWPD1ctg6OcXDvNoG4llOD4uSP1KykkLAdxIhs5jDHM1T2k7zKGeVp38uXNtqCslX6Zz8XJw1vNnu8UA==",
+  "dgSpecHash": "0M5zeYmuCcDiXAdXQUhbDqhUpdZdQ1TEJXcQVXBdos1isvj9KuGFLb1dEbSpTA9QS20pXa3ckgP4zXaDY3YKQw==",
   "success": true,
   "projectFilePath": "E:\\GITSTORE\\PerformEndless\\PerformEndless\\PerformEndless.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

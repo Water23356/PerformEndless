@@ -1,0 +1,15 @@
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\PerformEndless.csproj.AssemblyReference.cache
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\PerformEndless.GeneratedMSBuildEditorConfig.editorconfig
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\PerformEndless.AssemblyInfoInputs.cache
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\PerformEndless.AssemblyInfo.cs
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\PerformEndless.csproj.CoreCompileInputs.cache
+E:\GITSTORE\PerformEndless\PerformEndless\bin\Debug\net6.0\PerformEndless.deps.json
+E:\GITSTORE\PerformEndless\PerformEndless\bin\Debug\net6.0\PerformEndless.dll
+E:\GITSTORE\PerformEndless\PerformEndless\bin\Debug\net6.0\PerformEndless.pdb
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\PerformEndless.dll
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\refint\PerformEndless.dll
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\PerformEndless.pdb
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\ref\PerformEndless.dll
+E:\GITSTORE\PerformEndless\PerformEndless\bin\Debug\net6.0\PerformEndless.exe
+E:\GITSTORE\PerformEndless\PerformEndless\bin\Debug\net6.0\PerformEndless.runtimeconfig.json
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\PerformEndless.genruntimeconfig.cache
