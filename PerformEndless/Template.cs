@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft;
+using Newtonsoft.Json;
 
 namespace PerformEndless
 {
@@ -30,26 +31,57 @@ namespace PerformEndless
         /// <summary>
         /// 控件json文本
         /// </summary>
-        public List<string> json_template;
+        public List<string> json_template = new List<string>();
+        /// <summary>
+        /// 对应json文本,控制反序列化格式
+        /// </summary>
+        public List<TP_Tpye> json_type = new List<TP_Tpye>();
+
         /// <summary>
         /// 控件模板对象(ED)
         /// </summary>
-        private List<Template_Control> controls;
-        public List<Template_Control> Controls { get { return controls; } }
+        private List<Template_Control> controls = new List<Template_Control>();
+        public List<Template_Control> Controls() { return controls; }
         /// <summary>
         /// 根据当前json列表更新模板单元列表
         /// </summary>
         public void UpdateFormJson()
         {
-            foreach(string s in json_template)
+            for (int i = 0; i < json_template.Count; i++)
             {
-
+                string json = json_template[i];
+                switch (json_type[i])
+                {
+                    case TP_Tpye.Combobox:
+                        controls.Add(JsonConvert.DeserializeObject<Template_Combobox>(json));
+                        break;
+                    case TP_Tpye.CheckBox:
+                        controls.Add(JsonConvert.DeserializeObject<Template_CheckBox>(json));
+                        break;
+                    case TP_Tpye.InputField:
+                        controls.Add(JsonConvert.DeserializeObject<Template_InputField>(json));
+                        break;
+                }
+            }
+        }
+        /// <summary>
+        /// 根据当前对象,更新文本列表
+        /// </summary>
+        public void UpdateTxt()
+        {
+            json_template.Clear();
+            json_type.Clear();
+            foreach (Template_Control tpc in controls)
+            {
+                string json = JsonConvert.SerializeObject(tpc);
+                json_template.Add(json);
+                json_type.Add(tpc.tp_Tpye);
             }
         }
         #endregion
     }
 
-    public enum TP_Tpye { Combobox,InputField,CheckBox}
+    public enum TP_Tpye { Combobox, InputField, CheckBox }
     /// <summary>
     /// 控件模板基础类
     /// </summary>
@@ -59,6 +91,7 @@ namespace PerformEndless
         /// 控件类型
         /// </summary>
         public TP_Tpye tp_Tpye;
+
         /// <summary>
         /// 键
         /// </summary>
@@ -88,11 +121,11 @@ namespace PerformEndless
         /// <summary>
         /// 选项名称
         /// </summary>
-        public List<string> items;
+        public List<string> items = new List<string>();
         /// <summary>
         /// 值(一个选项对应一个值)
         /// </summary>
-        public List<string> values;
+        public List<string> values = new List<string>();
     }
 
     /// <summary>

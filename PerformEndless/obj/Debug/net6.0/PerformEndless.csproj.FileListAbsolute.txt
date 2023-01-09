@@ -13,3 +13,5 @@ E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\ref\PerformEndless.dl
 E:\GITSTORE\PerformEndless\PerformEndless\bin\Debug\net6.0\PerformEndless.exe
 E:\GITSTORE\PerformEndless\PerformEndless\bin\Debug\net6.0\PerformEndless.runtimeconfig.json
 E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\PerformEndless.genruntimeconfig.cache
+E:\GITSTORE\PerformEndless\PerformEndless\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\GITSTORE\PerformEndless\PerformEndless\obj\Debug\net6.0\PerformEndless.csproj.CopyComplete
